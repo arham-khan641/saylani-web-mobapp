@@ -1,0 +1,131 @@
+.main{
+    display: flex;
+    flex-direction: row;
+}
+/* .header{
+    background-color: rgb(8, 8, 170);
+    width: 200px;
+    height: 50px;
+
+} */
+
+/* #outerbox{
+ width: 1350px;
+ overflow: hidden;
+ flex-wrap: wrap;
+}
+#sliderbox
+{
+    position: relative;
+    width: 6750px;
+    animation:Arham 25s infinite;
+     }
+#sliderbox img {
+ float: left;
+ flex-wrap: wrap;
+} */
+.nav-link{
+    padding: 3px 5px;
+    margin: 10px 0px ;
+    background-color: #f5f5f5;
+    color: black;
+}
+ /* @keyframes Arham{
+    0%
+    {
+    left: 0px;
+  }
+    16%
+    {
+        left: 0px;
+    }
+    20%{
+        left:-1350px;
+    }
+    36%{
+        left:-1350px;
+    
+    }
+    40% {
+        left:-2700px;
+    }
+    56%{
+       left: -2700px;
+    }
+    60%{
+        left:-4050px;
+    }
+    76%{
+        left:-4050px;
+
+    }
+    80%{
+        left:-5400px;
+
+    }
+96%{
+    left:-5400px;
+}
+  100%{
+      left:-6750px;
+  }
+  
+
+} */
+.marque{
+     width:auto;
+    height: auto;
+    margin: 0px;
+    margin-left:0px;
+    background-color:#316DC3;
+    border:none;
+        
+    }
+    
+
+.introduction{
+    
+
+    
+    text-align:justify;
+    margin-top: 10px;
+     width:auto; 
+    font-family: arial;
+    padding-left:80px;
+    padding-right: 60PX;
+    background-color:#F7F8FA;
+    padding-top:40px;   
+    
+}
+ 
+@media only screen and (min-width: 575px) {
+.introduction {
+         width: auto;  
+
+
+}
+
+}
+.flex1{
+ 
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.hover{
+    color: #316DC3;
+}
+.justify{
+    justify-content: flex-start;
+}
+.flex2 {
+    justify-content:space-around;
+
+}
+.col {
+    background-color:rgb(26, 11, 230);
+     height: 250px;
+    padding-top: 30px;
+    
+    margin-left:0px;
+}
